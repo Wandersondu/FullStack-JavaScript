@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+}
+
+body {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    background-image: url("background.png") ;
+    color: white;
+    background-size: cover;
+
+}
+
+
+div {
+    display: block;
+    margin-top: 210px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+     width: 130px;
+     height: 130px;
+     
+    
+} 
+
+h1 {
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 38pt;
+    
+}
+h2 {
+    font-size: 25pt;
+    margin-bottom: 45px;
+    
+}
+
+h3 {
+    font-size: 18pt;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.nome, .email {
+    
+    width:720px;
+    height: 55px;
+    margin-top: 8px;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px white;
+    font-size: 15pt;
+    
+}
+
+::placeholder {
+    color: rgb(174, 177, 177);
+}
+
+
+.checkbox {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+
+li {
+    list-style: none;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+
+li a {
+    background: rgb(29, 14, 233);
+    padding: 17px 265px;
+    border-radius: 5px;
+    border: 1px blue;
+    text-decoration: none;   
+    font-size: 14pt;
+    
+}
+
+a {
+    color:white;
+    
+}
+
+a:hover {
+    background: #1d52ff;
+}

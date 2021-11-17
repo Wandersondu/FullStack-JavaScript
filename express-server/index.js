@@ -18,7 +18,20 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 // Rotas
 app.get('/', (req, res) => {
-    res.render('index')
+    res.render('index', {
+        title: 'Digital Tech - Home'
+    })
+})
+
+
+app.get('/posts', (req, res) => {
+    res.render('posts', {
+        title: 'Digital Tech - Post'
+    })
+})
+
+app.get('/', (req, res) => {
+    res.render('navbar')
 })
 
 

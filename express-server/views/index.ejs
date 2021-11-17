@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/public/css/style.css">
+    <%- include('partials/head.ejs') %>
 </head>
 <body>
+    <%- include('partials/header.ejs') %>
 
-    <%- include('header.ejs') %>
+    <section class="container">
+        <%- include('partials/navbar.ejs') %> 
+
+        <article class="content">
+            <h1>Pagina Inicial</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error vero tempore ipsa quidem et unde maiores, possimus similique eligendi itaque necessitatibus odio minima autem iure voluptatum labore voluptates officiis quis.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptas quisquam architecto iste quia possimus eligendi. Et cupiditate incidunt quia vitae! Explicabo, impedit. Nemo atque quo incidunt porro accusamus commodi.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt in quis sint eum rerum, nobis, consectetur saepe officiis pariatur quibusdam cum eos repudiandae voluptates ipsa soluta iusto, cupiditate voluptas doloremque.
+            </p>
+
+        </article>
+    </section>
     
-    <h1>Hello World!</h1>
 
-    <h2>Teste</h2>
 
-    <script src="/public/js/main.js"></script>
+
+    <%- include('partials/footer.ejs') %>
+    <%- include('partials/foot.ejs') %>
+  
 </body>
 </html>

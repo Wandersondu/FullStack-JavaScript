@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+    <%- include('partials/header.ejs') %>
+    
+    <section class="container">
+        <%- include('partials/navbar.ejs')%>    
+
+        <article class="content">
+            <h1>Post</h1>
+
+            <div class="Posts">
+                <% posts.forEach((item) => { %>
+
+                    <div class="post">
+                        <h3><%= item.title %></h3>
+                        <p><%= item.text %></p>
+
+                        <% if(item.stars) { %>
+                            <img src="https://affaso.com/wp-content/uploads/2020/06/5-point-stars-png-star-icon-flat-11562958768wpf63hu4tq.png " width="20px">
+                        <% } %>
+                    </div>
+
+                <% }) %>
+
+            </div>
+        </article>
+    </section>
+    <%- include('partials/footer.ejs') %>
+    <%- include('partials/foot.ejs') %>
+  
+</body>
+</html>

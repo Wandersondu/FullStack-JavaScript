@@ -1,0 +1,1 @@
+document.querySelector('#lampada').src = 'lampada_ligada.gif'

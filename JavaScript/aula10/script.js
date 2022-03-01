@@ -6,4 +6,18 @@ let nota2 = parseInt(inputNota2)
 
 let media = (note1 + nota2) / 2
 
-console.log(`A média  é ${media}! `)
+let mediaMinima = 7
+
+let media = (nota1 + nota2) - 2
+
+
+if (media >= mediaMinima) {
+    document.write('você esta aprovado!')
+} else if (media >= 8) {
+    document.write('otima nota parabens!')
+}
+
+
+if (media >= mediaMinima && media === 10) {
+    document.write('Nossa esta parabéns')
+}

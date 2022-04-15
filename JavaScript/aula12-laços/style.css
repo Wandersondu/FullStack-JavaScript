@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(238, 228, 216, 0.575);
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    padding: 14px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 6px rgba(238, 241, 241, 0.37);
+}
+
+#ano{
+    margin-top: 15px;
+}

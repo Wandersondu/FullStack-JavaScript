@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    margin: 20px 20px;
+
+}
+
+.toast{
+    display: inline-block; /* ele cresce conforme o tamanho do texto*/
+    position: absolute;
+    left: -100%;
+    bottom: 30px;
+    background: rgb(206, 235, 206);
+    border: 1px solid rgb(44, 206, 44);
+    padding: 15px ;
+    border-radius: 10px;
+    padding: 15px;
+    color: green;
+    transition: all 600ms ease;
+}
+.toast.visible{
+    left: 30px;
+}

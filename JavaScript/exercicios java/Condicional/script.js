@@ -21,26 +21,23 @@ let piloto = prompt('Qual é o nome do Piloto?')
 
 let velocity = 0
 
-let newVelocity = prompt('A que velocidade vocÊ gostaria de acelerar?')
+let newVelocity = prompt('A que velocidade gostaria de acelerar?')
 let confirmVelocity = confirm(`Estamos acelerando para ${newVelocity} Km/s `)
 
 if(confirmVelocity) {
     velocity = newVelocity
 }
 
-if(velocity <= 0) {
-    alert('Nave está parada. para partir aumenta a velocidade.')
-} else {
-    if(velocity < 40) {
-        alert('Você está muito devagar. Gostaria de almentar mais.')
-    } else {
-        if(velocity < 80) {
-            alert('A velocidade está otima.')
-        } else {
-            if(velocity < 100 )
-            alert ('velidade alta.')
-        } else {
-            alert('Velocidade perigosa.travões ligados')
-        }
-    }
-}
+if(velocity <= 0 ) {
+    alert('Atenção nave parada. Qual velocidade gostaria iniciar.')
+} else if(velocity < 40 ) {
+        alert('Velocidade muito baixa. devemos almentar.')
+    } else if( velocity < 80 ) {
+            alert('Velocidade a níveis normais')
+        } else if( velocity < 100 ) {
+                alert('Velocidade alta, Motores aquecendo!')
+            } else{
+                alert('Velocidade muito alta. [Prepara para explosão do motor 1]')
+            }
+        
+alert(`Piloto: ${piloto} \nVelocidade: ${velocity} Km/s`)

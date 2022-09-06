@@ -9,7 +9,7 @@ document.write('Hello World')
 
 let opçoes
 
-for(let contador = 1990; contador <= 2022; contador++){
+for(let contador = 1; contador < 5; contador++){
     opçoes =`<option>${contador}</option>`
 }
 

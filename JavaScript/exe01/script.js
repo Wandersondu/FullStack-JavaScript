@@ -1,10 +1,8 @@
+programa Teste;
+inteiro numero = 1; 
+inteiro soma = 0;
 
-function milhasemkm(milhas){
-   let = prompt('Qual é a velocidade?')
-    let km = milhas * 1.6
-
-    return km
+enquanto (numero < 5) { 
+    soma = soma + numero 
+    numero = numero + 1
 }
-
-let resultado = milhasemkm(80)
-document.write(resultado)

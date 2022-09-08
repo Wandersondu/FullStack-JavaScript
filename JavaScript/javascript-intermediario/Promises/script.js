@@ -1,5 +1,7 @@
 //criação de promessa
 
+const { ConnectionStates } = require("mongoose")
+
 const myPromise = new Promise ((resolve, reject) => {
     const nome = "Dutra"
 
@@ -62,6 +64,18 @@ myPromise3
 // Resolver várias promessas 
 
 const p1 = new Promise((resolve, reject) => {
-
-    
+    resolve("P1 ok !")
 })
+
+const p2 = new Promise((resolve, reject) => {
+    resolve("P1 ok !")
+})
+
+const p3 = new Promise((resolve, reject) => {
+    resolve("P1 ok !")
+})
+
+const resolveAll = Promise.all([p1,p2,p3]).then((data) => {
+    document.write(data)
+})
+

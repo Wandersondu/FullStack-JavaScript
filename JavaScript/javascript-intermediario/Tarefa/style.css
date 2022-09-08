@@ -1,0 +1,17 @@
+#msg {
+    display: inline-block;
+    position: absolute;
+    left: -100%;
+    bottom: 30px;
+    background: rgb(211, 245, 196);
+    padding: 15px;
+    color: green;
+    transition: all 600ms ease;
+    border: 1px solid rgb(166, 202, 177);
+    border-radius: 15px;
+    letter-spacing: 1px;
+}
+
+#msg.visible {
+    left: 30px;
+}

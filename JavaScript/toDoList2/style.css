@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(125,193,224);
+    background: linear-gradient(135deg, rgba(38, 4, 46, 0.993) 25%, rgb(102, 84, 105) 50%, rgb(38, 4, 46, 0.993) 75%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+}
+
+.todoList{
+    width: 600px;
+    max-width: 100%;
+    
+}
+
+.todoList header{
+    font-size: 1.3em;
+    background-color: rgba(252, 116, 116, 0.493);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgb(225, 255, 248);
+}
+
+.wrapper-list ul.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-list ul.list li{   
+    background-color: #916b74;
+    color: rgb(49, 39, 39);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.wrapper-list ul.list .check{
+    background-color: #916b74;
+    display: block;
+    width: 20px;
+    height: 20px;
+}

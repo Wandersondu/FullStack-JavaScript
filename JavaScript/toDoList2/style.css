@@ -59,7 +59,7 @@ body {
 }
 
 .wrapper-list ul.list li.remove {
-    animation: collapseItem 300ms ease;
+    animation: collapseItem 400ms ease;
 }
 
 .wrapper-list ul.list li.hidden {
@@ -87,7 +87,7 @@ body {
 }
 
 .wrapper-list ul.list .check:hover {
-    background-color: #c9b9ee;
+    background-color: #72668f;
 }
 
 .wrapper-list ul.list .done .check:after {
@@ -96,8 +96,8 @@ body {
     left: 5px;
     display: block;
     content: '';
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgb(35, 206, 35);
 }
